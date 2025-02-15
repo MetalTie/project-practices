@@ -1,0 +1,73 @@
+/* Poppins - Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(250, 229, 191);
+    
+    h1{
+        font-size: 40px;
+        padding: 20px;
+    }
+}
+
+/* Header (Wright Brothers) images style */
+header > section > .images{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 20px;
+}
+header > section > .images > figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Navigation Bar */
+nav{
+    background-color: white;
+}
+.navigation{
+    display: flex;  
+    text-align: center;
+}
+.navigation > li{
+        padding: 0 20px;
+        border-style: none solid;
+        border-width: 0px;
+        border-color: black;
+        list-style: none;
+        /* Takes away link style */
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+}
+.navigation > li:nth-of-type(1n+2){
+    border-width: 0 0 0 2px; /* adds a horizontal line before each cell */
+}
+.navigation > li:hover{
+    background-color: rgb(194, 194, 194);
+}
+ 
+/* Content */
+article{
+    background-color: rgb(156, 156, 156);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+article > section{
+    background-color: rgb(250, 229, 191);
+    border-radius: 8px;
+    padding: 20px;
+    
+}
